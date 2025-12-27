@@ -1,0 +1,76 @@
+body {
+	background: #f5f5f5f5;
+	color: #000000;
+	font-family: Candara, Arial;
+	font-size: 16px;
+	width: 99%;
+}
+
+#header {
+	background: url("hat3.jpg");
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+	text-align: center;
+	height: 100px;
+	width: 99%;
+}
+
+#navigation {
+	background: white;
+	padding: 10px;
+	width: 99%;
+}
+
+.menu-btn {
+    float: left;               /* выравниваем кнопки слева, чтобы располагались в ряд */
+    width: 33.33%;             /* каждая кнопка занимает треть ширины родителя */
+    text-align: center;        /* выравниваем текст внутри кнопки по центру */
+
+    padding: 15px 0;           /* внутренние отступы сверху и снизу 15px, слева и справа 0 */
+
+    background: #4CAF50;       /* цвет фона кнопки — зелёный */
+    color: white;              /* цвет текста белый */
+    text-decoration: none;     /* убираем подчёркивание у ссылок */
+    font-weight: bold;         /* делаем текст жирным */
+
+    border: 2px solid #3e8e41; /* рамка вокруг кнопки темно-зелёного цвета */
+    box-sizing: border-box;    /* чтобы ширина учитывала рамку и padding и не ломала верстку */
+}
+
+.menu-btn:hover {
+    background: #3e8e41;       /* при наведении меняем фон на более тёмный */
+}
+
+#sidebar {
+	background: #FFCCCC;
+	float: left;
+	text-align: center;
+	height: 400px;
+	width: 30%;
+}
+
+#sidebar img {
+    height: 300px;
+    width: 80%;
+	display: block;      /* превращаем img в блочный элемент */
+    margin: 0 auto;      /* автоматические отступы слева и справа */
+}
+
+#content {
+	background: #CCCCFF;
+	float: right;
+	display: flex;               /* включаем flex-контейнер */
+    flex-direction: column;      /* элементы располагаются вертикально */
+    justify-content: center;     /* выравнивание по вертикали */
+	height: 400px;
+	width: 68%;
+}
+
+#clear {clear:both;}
+
+#footer {
+	background: #99CCCC;
+	height: 80px;
+	width: 99%;
+}
